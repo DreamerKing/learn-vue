@@ -1,0 +1,811 @@
+{
+  "code": 200,
+  "msg": "操作成功",
+  "data": {
+    "records": [
+      {
+        "id": 1,
+        "ruleName": "阿松大",
+        "freeTime": 12,
+        "freeTimeChargeFlag": null,
+        "dayChargeRuleTime": null,
+        "ruleTypeList": null,
+        "ruleTypeMap": {
+          "1": {
+            "1": [
+              {
+                "id": 19,
+                "dateType": 1,
+                "carType": "1",
+                "chargeType": 1,
+                "fixedAmount": 0,
+                "startTime": "18:30:00",
+                "endTime": "18:30:00",
+                "maxAmount": 12,
+                "freeFlag": false,
+                "ruleTypeInfoList": [
+                  {
+                    "startTime": 0,
+                    "endTime": 30,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  },
+                  {
+                    "startTime": 30,
+                    "endTime": 40,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  },
+                  {
+                    "startTime": 40,
+                    "endTime": 0,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  }
+                ]
+              },
+              {
+                "id": null,
+                "dateType": null,
+                "carType": null,
+                "chargeType": null,
+                "fixedAmount": null,
+                "startTime": "00:00:00",
+                "endTime": "18:30:00",
+                "maxAmount": null,
+                "freeFlag": true,
+                "ruleTypeInfoList": null
+              },
+              {
+                "id": null,
+                "dateType": null,
+                "carType": null,
+                "chargeType": null,
+                "fixedAmount": null,
+                "startTime": "18:30:00",
+                "endTime": "23:59:59",
+                "maxAmount": null,
+                "freeFlag": true,
+                "ruleTypeInfoList": null
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": 2,
+        "ruleName": "按此",
+        "freeTime": 12,
+        "freeTimeChargeFlag": null,
+        "dayChargeRuleTime": null,
+        "ruleTypeList": null,
+        "ruleTypeMap": {
+          "1": {
+            "1": [
+              {
+                "id": 3,
+                "dateType": 1,
+                "carType": "1",
+                "chargeType": 1,
+                "fixedAmount": 0,
+                "startTime": "18:30:00",
+                "endTime": "18:30:00",
+                "maxAmount": 12,
+                "freeFlag": false,
+                "ruleTypeInfoList": [
+                  {
+                    "startTime": 12,
+                    "endTime": 13,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  },
+                  {
+                    "startTime": 13,
+                    "endTime": 0,
+                    "chargeAmount": 121,
+                    "minSpanTime": 2
+                  }
+                ]
+              },
+              {
+                "id": 4,
+                "dateType": 1,
+                "carType": "1",
+                "chargeType": 1,
+                "fixedAmount": 0,
+                "startTime": "18:30:00",
+                "endTime": "18:30:00",
+                "maxAmount": 12,
+                "freeFlag": false,
+                "ruleTypeInfoList": [
+                  {
+                    "startTime": 12,
+                    "endTime": 13,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  },
+                  {
+                    "startTime": 13,
+                    "endTime": 0,
+                    "chargeAmount": 121,
+                    "minSpanTime": 2
+                  }
+                ]
+              },
+              {
+                "id": null,
+                "dateType": null,
+                "carType": null,
+                "chargeType": null,
+                "fixedAmount": null,
+                "startTime": "00:00:00",
+                "endTime": "18:30:00",
+                "maxAmount": null,
+                "freeFlag": true,
+                "ruleTypeInfoList": null
+              },
+              {
+                "id": null,
+                "dateType": null,
+                "carType": null,
+                "chargeType": null,
+                "fixedAmount": null,
+                "startTime": "18:30:00",
+                "endTime": "18:30:00",
+                "maxAmount": null,
+                "freeFlag": true,
+                "ruleTypeInfoList": null
+              },
+              {
+                "id": null,
+                "dateType": null,
+                "carType": "1",
+                "chargeType": null,
+                "fixedAmount": null,
+                "startTime": "18:30:00",
+                "endTime": "23:59:59",
+                "maxAmount": null,
+                "freeFlag": true,
+                "ruleTypeInfoList": null
+              }
+            ]
+          },
+          "2": {
+            "1": [
+              {
+                "id": 3,
+                "dateType": 1,
+                "carType": "1",
+                "chargeType": 1,
+                "fixedAmount": 0,
+                "startTime": "18:30:00",
+                "endTime": "18:30:00",
+                "maxAmount": 12,
+                "freeFlag": false,
+                "ruleTypeInfoList": [
+                  {
+                    "startTime": 12,
+                    "endTime": 13,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  },
+                  {
+                    "startTime": 13,
+                    "endTime": 0,
+                    "chargeAmount": 121,
+                    "minSpanTime": 2
+                  }
+                ]
+              },
+              {
+                "id": 4,
+                "dateType": 1,
+                "carType": "1",
+                "chargeType": 1,
+                "fixedAmount": 0,
+                "startTime": "18:30:00",
+                "endTime": "18:30:00",
+                "maxAmount": 12,
+                "freeFlag": false,
+                "ruleTypeInfoList": [
+                  {
+                    "startTime": 12,
+                    "endTime": 13,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  },
+                  {
+                    "startTime": 13,
+                    "endTime": 0,
+                    "chargeAmount": 121,
+                    "minSpanTime": 2
+                  }
+                ]
+              },
+              {
+                "id": null,
+                "dateType": null,
+                "carType": null,
+                "chargeType": null,
+                "fixedAmount": null,
+                "startTime": "00:00:00",
+                "endTime": "18:30:00",
+                "maxAmount": null,
+                "freeFlag": true,
+                "ruleTypeInfoList": null
+              },
+              {
+                "id": null,
+                "dateType": null,
+                "carType": null,
+                "chargeType": null,
+                "fixedAmount": null,
+                "startTime": "18:30:00",
+                "endTime": "18:30:00",
+                "maxAmount": null,
+                "freeFlag": true,
+                "ruleTypeInfoList": null
+              },
+              {
+                "id": null,
+                "dateType": null,
+                "carType": null,
+                "chargeType": null,
+                "fixedAmount": null,
+                "startTime": "18:30:00",
+                "endTime": "23:59:59",
+                "maxAmount": null,
+                "freeFlag": true,
+                "ruleTypeInfoList": null
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": 3,
+        "ruleName": "按此",
+        "freeTime": 12,
+        "freeTimeChargeFlag": null,
+        "dayChargeRuleTime": null,
+        "ruleTypeList": null,
+        "ruleTypeMap": {
+          "1": {
+            "1": [
+              {
+                "id": 5,
+                "dateType": 1,
+                "carType": "1",
+                "chargeType": 1,
+                "fixedAmount": 0,
+                "startTime": "18:30:00",
+                "endTime": "18:30:00",
+                "maxAmount": 12,
+                "freeFlag": false,
+                "ruleTypeInfoList": [
+                  {
+                    "startTime": 0,
+                    "endTime": 30,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  },
+                  {
+                    "startTime": 30,
+                    "endTime": 240,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  },
+                  {
+                    "startTime": 240,
+                    "endTime": 0,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  }
+                ]
+              },
+              {
+                "id": null,
+                "dateType": null,
+                "carType": null,
+                "chargeType": null,
+                "fixedAmount": null,
+                "startTime": "00:00:00",
+                "endTime": "18:30:00",
+                "maxAmount": null,
+                "freeFlag": true,
+                "ruleTypeInfoList": null
+              },
+              {
+                "id": null,
+                "dateType": null,
+                "carType": null,
+                "chargeType": null,
+                "fixedAmount": null,
+                "startTime": "18:30:00",
+                "endTime": "23:59:59",
+                "maxAmount": null,
+                "freeFlag": true,
+                "ruleTypeInfoList": null
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": 4,
+        "ruleName": "按此",
+        "freeTime": 12,
+        "freeTimeChargeFlag": null,
+        "dayChargeRuleTime": null,
+        "ruleTypeList": null,
+        "ruleTypeMap": {
+          "1": {
+            "1": [
+              {
+                "id": 6,
+                "dateType": 1,
+                "carType": "1",
+                "chargeType": 1,
+                "fixedAmount": 0,
+                "startTime": "18:30:00",
+                "endTime": "18:30:00",
+                "maxAmount": 12,
+                "freeFlag": false,
+                "ruleTypeInfoList": [
+                  {
+                    "startTime": 0,
+                    "endTime": 30,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  },
+                  {
+                    "startTime": 30,
+                    "endTime": 240,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  },
+                  {
+                    "startTime": 240,
+                    "endTime": 0,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  }
+                ]
+              },
+              {
+                "id": null,
+                "dateType": null,
+                "carType": null,
+                "chargeType": null,
+                "fixedAmount": null,
+                "startTime": "00:00:00",
+                "endTime": "18:30:00",
+                "maxAmount": null,
+                "freeFlag": true,
+                "ruleTypeInfoList": null
+              },
+              {
+                "id": null,
+                "dateType": null,
+                "carType": null,
+                "chargeType": null,
+                "fixedAmount": null,
+                "startTime": "18:30:00",
+                "endTime": "23:59:59",
+                "maxAmount": null,
+                "freeFlag": true,
+                "ruleTypeInfoList": null
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": 5,
+        "ruleName": "按此",
+        "freeTime": 12,
+        "freeTimeChargeFlag": null,
+        "dayChargeRuleTime": null,
+        "ruleTypeList": null,
+        "ruleTypeMap": {
+          "1": {
+            "1": [
+              {
+                "id": 7,
+                "dateType": 1,
+                "carType": "1",
+                "chargeType": 1,
+                "fixedAmount": 0,
+                "startTime": "18:30:00",
+                "endTime": "18:30:00",
+                "maxAmount": 12,
+                "freeFlag": false,
+                "ruleTypeInfoList": [
+                  {
+                    "startTime": 0,
+                    "endTime": 30,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  },
+                  {
+                    "startTime": 30,
+                    "endTime": 240,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  },
+                  {
+                    "startTime": 240,
+                    "endTime": 0,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  }
+                ]
+              },
+              {
+                "id": null,
+                "dateType": null,
+                "carType": null,
+                "chargeType": null,
+                "fixedAmount": null,
+                "startTime": "00:00:00",
+                "endTime": "18:30:00",
+                "maxAmount": null,
+                "freeFlag": true,
+                "ruleTypeInfoList": null
+              },
+              {
+                "id": null,
+                "dateType": null,
+                "carType": null,
+                "chargeType": null,
+                "fixedAmount": null,
+                "startTime": "18:30:00",
+                "endTime": "23:59:59",
+                "maxAmount": null,
+                "freeFlag": true,
+                "ruleTypeInfoList": null
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": 6,
+        "ruleName": "按此",
+        "freeTime": 12,
+        "freeTimeChargeFlag": null,
+        "dayChargeRuleTime": null,
+        "ruleTypeList": null,
+        "ruleTypeMap": {
+          "1": {
+            "1": [
+              {
+                "id": 8,
+                "dateType": 1,
+                "carType": "1",
+                "chargeType": 1,
+                "fixedAmount": 0,
+                "startTime": "18:30:00",
+                "endTime": "18:30:00",
+                "maxAmount": 12,
+                "freeFlag": false,
+                "ruleTypeInfoList": [
+                  {
+                    "startTime": 0,
+                    "endTime": 30,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  },
+                  {
+                    "startTime": 30,
+                    "endTime": 240,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  },
+                  {
+                    "startTime": 240,
+                    "endTime": 0,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  }
+                ]
+              },
+              {
+                "id": null,
+                "dateType": null,
+                "carType": null,
+                "chargeType": null,
+                "fixedAmount": null,
+                "startTime": "00:00:00",
+                "endTime": "18:30:00",
+                "maxAmount": null,
+                "freeFlag": true,
+                "ruleTypeInfoList": null
+              },
+              {
+                "id": null,
+                "dateType": null,
+                "carType": null,
+                "chargeType": null,
+                "fixedAmount": null,
+                "startTime": "18:30:00",
+                "endTime": "23:59:59",
+                "maxAmount": null,
+                "freeFlag": true,
+                "ruleTypeInfoList": null
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": 7,
+        "ruleName": "按此",
+        "freeTime": 12,
+        "freeTimeChargeFlag": null,
+        "dayChargeRuleTime": null,
+        "ruleTypeList": null,
+        "ruleTypeMap": {
+          "1": {
+            "1": [
+              {
+                "id": 9,
+                "dateType": 1,
+                "carType": "1",
+                "chargeType": 1,
+                "fixedAmount": 0,
+                "startTime": "18:30:00",
+                "endTime": "18:30:00",
+                "maxAmount": 12,
+                "freeFlag": false,
+                "ruleTypeInfoList": [
+                  {
+                    "startTime": 0,
+                    "endTime": 30,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  },
+                  {
+                    "startTime": 30,
+                    "endTime": 240,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  },
+                  {
+                    "startTime": 240,
+                    "endTime": 0,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  }
+                ]
+              },
+              {
+                "id": null,
+                "dateType": null,
+                "carType": null,
+                "chargeType": null,
+                "fixedAmount": null,
+                "startTime": "00:00:00",
+                "endTime": "18:30:00",
+                "maxAmount": null,
+                "freeFlag": true,
+                "ruleTypeInfoList": null
+              },
+              {
+                "id": null,
+                "dateType": null,
+                "carType": null,
+                "chargeType": null,
+                "fixedAmount": null,
+                "startTime": "18:30:00",
+                "endTime": "23:59:59",
+                "maxAmount": null,
+                "freeFlag": true,
+                "ruleTypeInfoList": null
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": 8,
+        "ruleName": "按此",
+        "freeTime": 12,
+        "freeTimeChargeFlag": null,
+        "dayChargeRuleTime": null,
+        "ruleTypeList": null,
+        "ruleTypeMap": {
+          "1": {
+            "1": [
+              {
+                "id": 10,
+                "dateType": 1,
+                "carType": "1",
+                "chargeType": 1,
+                "fixedAmount": 0,
+                "startTime": "18:30:00",
+                "endTime": "18:30:00",
+                "maxAmount": 12,
+                "freeFlag": false,
+                "ruleTypeInfoList": [
+                  {
+                    "startTime": 0,
+                    "endTime": 30,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  },
+                  {
+                    "startTime": 30,
+                    "endTime": 0,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  }
+                ]
+              },
+              {
+                "id": null,
+                "dateType": null,
+                "carType": null,
+                "chargeType": null,
+                "fixedAmount": null,
+                "startTime": "00:00:00",
+                "endTime": "18:30:00",
+                "maxAmount": null,
+                "freeFlag": true,
+                "ruleTypeInfoList": null
+              },
+              {
+                "id": null,
+                "dateType": null,
+                "carType": null,
+                "chargeType": null,
+                "fixedAmount": null,
+                "startTime": "18:30:00",
+                "endTime": "23:59:59",
+                "maxAmount": null,
+                "freeFlag": true,
+                "ruleTypeInfoList": null
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": 9,
+        "ruleName": "按此",
+        "freeTime": 12,
+        "freeTimeChargeFlag": null,
+        "dayChargeRuleTime": null,
+        "ruleTypeList": null,
+        "ruleTypeMap": {
+          "1": {
+            "1": [
+              {
+                "id": 11,
+                "dateType": 1,
+                "carType": "1",
+                "chargeType": 1,
+                "fixedAmount": 0,
+                "startTime": "18:30:00",
+                "endTime": "18:30:00",
+                "maxAmount": 12,
+                "freeFlag": false,
+                "ruleTypeInfoList": [
+                  {
+                    "startTime": 0,
+                    "endTime": 30,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  },
+                  {
+                    "startTime": 30,
+                    "endTime": 0,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  }
+                ]
+              },
+              {
+                "id": null,
+                "dateType": null,
+                "carType": null,
+                "chargeType": null,
+                "fixedAmount": null,
+                "startTime": "00:00:00",
+                "endTime": "18:30:00",
+                "maxAmount": null,
+                "freeFlag": true,
+                "ruleTypeInfoList": null
+              },
+              {
+                "id": null,
+                "dateType": null,
+                "carType": null,
+                "chargeType": null,
+                "fixedAmount": null,
+                "startTime": "18:30:00",
+                "endTime": "23:59:59",
+                "maxAmount": null,
+                "freeFlag": true,
+                "ruleTypeInfoList": null
+              }
+            ]
+          }
+        }
+      },
+      {
+        "id": 10,
+        "ruleName": "阿松大",
+        "freeTime": 12,
+        "freeTimeChargeFlag": null,
+        "dayChargeRuleTime": null,
+        "ruleTypeList": null,
+        "ruleTypeMap": {
+          "1": {
+            "1": [
+              {
+                "id": 12,
+                "dateType": 1,
+                "carType": "1",
+                "chargeType": 1,
+                "fixedAmount": 0,
+                "startTime": "18:30:00",
+                "endTime": "18:30:00",
+                "maxAmount": 12,
+                "freeFlag": false,
+                "ruleTypeInfoList": [
+                  {
+                    "startTime": 0,
+                    "endTime": 30,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  },
+                  {
+                    "startTime": 30,
+                    "endTime": 0,
+                    "chargeAmount": 12,
+                    "minSpanTime": 12
+                  }
+                ]
+              },
+              {
+                "id": null,
+                "dateType": null,
+                "carType": null,
+                "chargeType": null,
+                "fixedAmount": null,
+                "startTime": "00:00:00",
+                "endTime": "18:30:00",
+                "maxAmount": null,
+                "freeFlag": true,
+                "ruleTypeInfoList": null
+              },
+              {
+                "id": null,
+                "dateType": null,
+                "carType": null,
+                "chargeType": null,
+                "fixedAmount": null,
+                "startTime": "18:30:00",
+                "endTime": "23:59:59",
+                "maxAmount": null,
+                "freeFlag": true,
+                "ruleTypeInfoList": null
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "total": 15,
+    "size": 10,
+    "current": 1,
+    "orders": [],
+    "optimizeCountSql": true,
+    "hitCount": false,
+    "countId": null,
+    "maxLimit": null,
+    "searchCount": true,
+    "pages": 2
+  }
+}
