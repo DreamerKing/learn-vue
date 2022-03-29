@@ -17,3 +17,9 @@ Vite 可以利用 Rollup 插件。
 ```sh
 npm add -D @vitejs/plugin-legacy
 ```
+
+### 使用
+
+```sh
+yarn create vite
+```
